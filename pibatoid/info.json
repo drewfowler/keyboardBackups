@@ -1,0 +1,75 @@
+{
+    "manufacturer": "Drew Fowler",
+    "keyboard_name": "pibatoid",
+    "maintainer": "Drew Fowler",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["D1", "D0", "D4", "C6", "D7", "E6", "B3", "B1", "F7", "F6", "F5", "F4"],
+        "rows": ["B2", "B4", "B6", "B5"]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "Q", "x": 0, "y": 0.25},
+                {"label": "Q", "x": 1, "y": 0.25},
+                {"label": "Q", "x": 2, "y": 0.125},
+                {"label": "Q", "x": 3, "y": 0},
+                {"label": "Q", "x": 4, "y": 0.125},
+                {"label": "Q", "x": 5, "y": 0.25},
+                {"label": "Q", "x": 8, "y": 0.25},
+                {"label": "Q", "x": 9, "y": 0.125},
+                {"label": "Q", "x": 10, "y": 0},
+                {"label": "Q", "x": 11, "y": 0.125},
+
+                {"label": "A", "x": 0, "y": 1.25},
+                {"label": "A", "x": 1, "y": 1.25},
+                {"label": "A", "x": 2, "y": 1.125},
+                {"label": "A", "x": 3, "y": 1},
+                {"label": "A", "x": 4, "y": 1.125},
+                {"label": "A", "x": 5, "y": 1.25},
+                {"label": "A", "x": 8, "y": 1.25},
+                {"label": "A", "x": 9, "y": 1.125},
+                {"label": "A", "x": 10, "y": 1},
+                {"label": "A", "x": 11, "y": 1.125},
+
+
+                {"label": "Z", "x": 0, "y": 2.25},
+                {"label": "Z", "x": 1, "y": 2.25},
+                {"label": "Z", "x": 2, "y": 2.125},
+                {"label": "Z", "x": 3, "y": 2},
+                {"label": "Z", "x": 4, "y": 2.125},
+                {"label": "Z", "x": 5, "y": 2.25},
+                {"label": "Z", "x": 8, "y": 2.25},
+                {"label": "Z", "x": 9, "y": 2.125},
+                {"label": "Z", "x": 10, "y": 2},
+                {"label": "Z", "x": 11, "y": 2.125},
+                {"label": "Z", "x": 12, "y": 2.25},
+
+
+                {"label": "Win", "x": 0, "y": 0},
+                {"label": "Win", "x": 1, "y": 3.25},
+                {"label": "Win", "x": 2, "y": 3.25},
+                {"label": "Win", "x": 3, "y": 3.25},
+                {"label": "Win", "x": 4, "y": 3.5},
+                {"label": "Win", "x": 5, "y": 3.75}
+
+            ]
+        }
+    }
+}
